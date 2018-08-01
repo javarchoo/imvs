@@ -3,7 +3,7 @@ FROM kolla/ubuntu-source-nova-libvirt:pike
 MAINTAINER SK Broadband
 
 # copy files
-COPY etc/skb_test /etc/skb_test
+COPY skb_test /etc/skb_test
 
 # install pkg
 RUN apt-get update && \
